@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
 
                 //get the latitude/longitude/date/time
-                updateGPS(loc, locationManager, locationListener);
+                UpdateGPS(loc, locationManager, locationListener);
 
                 //create the bit map for the QR code that includes
                 //latitude/longitude/date/time that was just updated
@@ -147,8 +147,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //method to get the
-    public void updateGPS(Location loc, LocationManager locationManager, LocationListener locationListener){
+    //method to get the latitude/longitude/day/time
+    public void UpdateGPS(Location loc, LocationManager locationManager, LocationListener locationListener){
 
         //locationManager and locationListener are not used atm because we are checking the location every second, not just when it changes.
 
