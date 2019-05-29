@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+   <TextView
+           android:id="@+id/latitudeTextView"
+           android:textSize="25sp"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.10"
+           android:gravity="center"
+            />
+   <TextView
+           android:id="@+id/longitudeTextView"
+           android:textSize="25sp"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.10"
+           android:gravity="center"/>
+    <TextView
+            android:id="@+id/time"
+            android:textSize="25sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.10"
+            android:gravity="center"/>
+
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_weight="0.50"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button"
+    />
+
+
+
+</LinearLayout>
